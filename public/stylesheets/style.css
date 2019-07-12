@@ -1,8 +1,25 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@import "w3.css";
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Material+Icons');
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+:root {
+  font-family: "News Cycle", sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "News Cycle", sans-serif !important;
 }
 
-a {
-  color: #00B7FF;
+.dignity {
+  font-family: "News Cycle", sans-serif !important;
+}
+i, .material-icons, .fa, .fab, .far, .fas {
+  vertical-align: middle;
+}
+.frontispiece {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
